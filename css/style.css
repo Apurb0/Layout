@@ -1,0 +1,499 @@
+*{
+     margin: 0px;
+     padding: 0px;
+
+}
+
+.container{
+	width:1140px;
+	margin:0 auto;
+}
+
+/*i.fa.fa-linkedin{
+
+  background:blue;
+  padding:30px;
+  color:#fff;
+  border-radius:42px;
+  font-size:36px;
+}
+*/
+i.fa.fa-facebook-square{
+
+
+  color:#4267B2;
+
+}
+
+i.fa.fa-twitter-square{
+color:#1A91DA;
+
+}
+
+i.fa.fa-linkedin-square{
+color:#0073B0;
+}
+
+i.fa.fa-google-plus-square{
+color:#DD5044;
+}
+
+
+i.fa.fa-sign-in{
+  
+  padding: 2px;
+}
+
+.sign-in-text{
+	color:#4D5384;
+}
+
+
+
+body{
+
+
+}
+
+
+
+header{
+	width: 100%;
+	float: left;
+}
+
+
+.logo{
+    width: 20%;
+    float: left;
+
+}
+
+.logo img{
+	display: block;
+	width:180px;
+	/*height:101px;*/
+
+}
+
+.main-menu{
+	width: 50%;
+	float: left;
+}
+
+
+nav{
+	margin:20px 0px;
+}
+
+nav ul{
+
+	list-style: none;
+}
+
+nav ul li{
+	display: inline-block;
+	margin:30px 5px;
+}
+
+nav ul li a{
+	text-decoration:none;
+	color:#161616;
+	font-size:17px;
+	padding:3px;
+	margin:10px;
+}
+
+
+.social-icon{
+
+	width:30%;
+	float: left;
+	padding:50px 0px;
+	font-size:20px;
+}
+
+.social-icon ul{
+
+	list-style:none;
+}
+
+.social-icon li{
+
+		display:inline;
+        margin:0px 10px;
+}
+
+.social-icon ul li a{
+
+	
+}
+
+.banner{
+     
+    margin-right:50px;
+	width:100%;
+	height:435px;
+	background:#acb0ad;
+	background-image:url(https://billigselskab.dk/wp-content/uploads/2018/02/Sk%C3%A6rmbillede-2018-05-31-05.32.06.png);
+    background-size:cover; 
+}
+
+
+.content{
+    
+
+}
+
+.footer-main-div{
+
+	width:100%;
+	height:auto;
+	margin:auto;
+	background:red;
+	padding: 20px 0px;
+}
+
+.footer-social-icons{
+    width:100%;
+    height: auto;
+    margin: auto;
+
+}
+
+.footer-social-icons ul{
+    margin:0px;
+    padding:0px;
+    text-align:center;
+
+}
+
+.footer-social-icons ul li{
+  display:inline-block;
+  width:50px;
+  height:50px;
+  margin:0px 10px;
+  border-radius:100%;
+  background:black;
+}
+
+.footer-social-icons ul li a{
+  color:blue;
+}
+
+
+
+.footer-menu-one{
+   width:100%;
+   height:auto;
+   margin:auto;
+   margin-top:20px;
+
+}
+
+.footer-menu-one ul{
+   
+   margin:0px;
+   padding:0px;
+   text-align:center;
+
+}
+
+.footer-menu-one ul li{
+   display:inline-block;
+   margin:0px 20px;
+
+}
+
+
+.footer-menu-one ul li a{
+   font-family: arial;
+   font-size:15px;
+   font-weight: 600;
+   color:#fff;
+   text-transform:uppercase;
+}
+
+.footer-bottom{
+
+	width:100%;
+	height: auto;
+	margin:auto;
+	background:#032E39;
+}
+
+
+
+
+
+
+/*=-footer-=*/
+			footer {
+				color: #fff;
+				background-attachment: fixed;
+				background-color:#808080;
+                background-image: url(https://s7.postimg.org/uyf0oioaz/footer-bg.png);
+				background-size: cover;
+				background-position: bottom;
+				width:100%;
+			}
+			
+			/*=-Copyright-=*/
+			.copyright {
+				background-color: #032E3A;
+				padding: 50px 0px;
+                font-size:14px;
+			}
+
+
+			.white-text-1{
+				  padding: 25px;
+				  padding-left:420px;
+			}
+
+			.button-0{
+				background-color:#66C723;
+				margin-left:45px;
+				padding:4px;
+				font-color:whi
+			}
+
+
+			.button-1{
+				background-color:#66C723;
+				margin-left:45px;
+				padding: 4px;
+			}
+
+			.button-2{
+				background-color:#66C723;
+				margin-left:45px;
+				padding: 4px;
+			}
+
+			.button-3{
+				background-color:#66C723;
+				margin-left:45px;
+				padding: 4px;
+			}
+
+			.text-1{
+				margin-left:30px;
+				padding: 4px;
+			}
+
+			.text-2{
+				margin-left:30px;
+				padding: 4px;
+			}
+
+			.text-3{
+				margin-left:30px;
+				padding: 4px;
+			}
+
+			.text-4{
+				margin-left:30px;
+				padding: 4px;
+			}
+
+			i.fa.fa-check{
+
+                background:#6879D3;
+  				padding: 20px;
+				color: white;
+				border-radius:42px;
+				margin-left:70px;
+				font-size: 30px;
+
+			}
+
+			i.fa.fa-map-marker{
+                background:#009690;
+  				padding: 20px;
+				color: white;
+				border-radius:42px;
+				margin-left:60px;
+				font-size: 30px;
+
+			}
+
+			i.fa.fa-money{
+                background:#4BB050;
+  				padding: 20px;
+				color: white;
+				border-radius:42px;
+				margin-left:70px;
+				font-size: 30px;
+			}
+
+			i.fa.fa-user-plus{
+                 background:#99E06F;
+  				padding: 20px;
+				color: white;
+				border-radius:42px;
+				margin-left:40px;
+				font-size: 30px;
+			}
+
+			.container .box{
+
+				position: relative;
+				width:calc(400px - 30px);
+				height:calc(300px - 30px);
+				background: #B8CCD3;
+      			float: left;
+				margin:25px;
+                box-sizing:border-box;
+
+			}
+
+    i.fa.fa-dot-circle-o{
+
+    	color:#66C723;
+    }
+
+    .box-button-1{
+               background-color:#66C723;
+				margin-left:15px;
+				padding: 4px;
+				margin:8px;
+
+    }
+
+
+
+
+    .box-text-1{
+    	        margin-left:100px;
+				padding: 30px;
+    }
+
+    .blog-text{
+    	          padding: 25px;
+				  padding-left:500px;
+				  color:blue;
+    }
+
+
+    .blog-text-1{
+    	color:blue;
+    }
+
+
+    .blog-text-2{
+    	color:blue;
+    }
+
+
+
+
+    .blog-button{
+
+    	        background-color:#66C723;
+				/*margin-left:45px;*/
+				padding: 4px;
+
+    }
+
+    .message{
+                background-color: #DCDCDC;
+				padding: 50px 0px;
+                font-size:14px;
+
+    }
+
+    #info{
+
+    	color:black;
+    }
+
+  .trustpilot{
+  	margin-left:500px;
+  	padding:20px;
+
+
+  }
+
+  i.fa.fa-star{
+  /*	background:#01B676;*/
+         font-size:35px;
+
+
+  }
+
+.star{
+    margin-left:350px;
+  	padding:20px;
+
+
+
+}
+
+.blank-star{
+  margin-left:350px;
+  	padding:20px;
+   color:#808080;
+
+}
+
+
+
+
+  i.fa.fa-star-o{
+
+  	             text-align:center;
+  	            font-size:35px;
+  	            background:#84C410;
+  				padding: 20px;
+				color: white;
+				border-radius:10px;
+				margin-left:50px 20px;
+				margin-right:10px 20px;
+				font-size: 30px;
+                      
+
+  }
+
+  .star-line{
+  	 margin-left:420px;
+  	 padding:20px;
+
+  }
+
+
+  .footer-address{
+       font-size:15px;
+       color:white;
+
+  }
+
+.grey-text-1{
+	 font-size:22px;
+       color:black;
+
+}
+
+.white-text-10{
+	 font-size:22px;
+}
+
+.leave-massage{
+
+
+                
+	            margin-left:85%;
+  	            font-size:35px;
+  	            background:#484848;
+  				padding: 8px;
+				color: white;
+				border-radius:10px;
+				font-size: 15px;
+}
+
+
+   /*.text-white-1{
+   	margin:420px;
+  	 padding:20px;
+
+   }*/
